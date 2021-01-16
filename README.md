@@ -26,7 +26,7 @@ This operation is at the center of convolutional neural networks, which use mult
 
 Calculating one output pixel value (175) while performing convolution:
 
-![Img](hhttps://github.com/jackyhuynh/High-Pass-Filter/blob/main/images/screen-shot-2017-12-18-at-10.59.26-pm.png)
+![Img](https://github.com/jackyhuynh/High-Pass-Filter/blob/main/images/screen-shot-2017-12-18-at-10.59.26-pm.png)
 
 To handle the edges of images, where the filter cannot exactly overlap, a variety of techniques are used. One of the most common is to extend the edge pixel values of the image out by one and use that to perform a convolution. Another is to pad the image with zeroes, though this creates a darker border in the resulting, filtered image.
 
