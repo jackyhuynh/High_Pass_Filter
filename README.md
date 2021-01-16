@@ -1,11 +1,11 @@
 # High-Pass-Filter
 
-# Introduction
+## Introduction
 This is a serial of Self-Driving Car technology (the image classifier high pass-filter)
 
 [Check out video about High pass filter at Udacity.com](https://youtu.be/JOa9ZtV_rB4)
 
-# What exactly is a High-pass Filters?
+## What exactly is a High-pass Filters?
 High-pass filters detect big changes in intensity over a small area, and patterns of intensity can be best seen in a grayscale image.
 
 The filters I’ll be talking about are in the form of matrices, often called convolution kernels, which are just grids of numbers that modify an image. Here is a resource if you'd like to see a wider variety of kernel types in action. Below is an example of a high-pass kernel that does edge detection. It’s a 3x3 kernel, whose elements all sum to zero.
@@ -14,9 +14,19 @@ It’s important that, for edge detection, all of the elements sum to 0 because 
 
 ![Img](https://github.com/jackyhuynh/High-Pass-Filter/blob/main/images/waymo-gray.jpg)
 
-After apply high pass filter:
+## High pass Kernal
+After apply high pass filter (High pass Kernal):
 
 ![Img](https://github.com/jackyhuynh/High-Pass-Filter/blob/main/images/screen-shot-2017-12-18-at-10.54.01-pm.png)
+
+## Convolution
+During kernel convolution, the 3x3 kernel is slid over every pixel in the original, grayscale image. The weights in the kernel are multiplied pair-wise around a center pixel, and then added up. This sum becomes the value of a pixel in a new, filtered, output image.
+
+This operation is at the center of convolutional neural networks, which use multiple kernels to extract shape-based features and identify patterns that can accurately classify sets of images. These neural networks are trained on large sets of labelled data, and they learn the most effective kernel weights; the weights that help characterize each image correctly.
+
+Calculating one output pixel value (175) while performing convolution:
+
+![Img](hhttps://github.com/jackyhuynh/High-Pass-Filter/blob/main/images/screen-shot-2017-12-18-at-10.59.26-pm.png)
 
 ## Technology
 - Python 
