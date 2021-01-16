@@ -3,7 +3,7 @@
 # Introduction
 This is a serial of Self-Driving Car technology (the image high pass-filter)
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://youtu.be/JOa9ZtV_rB4)
+[Check out video about High pass filter at Udacity.com](https://youtu.be/JOa9ZtV_rB4)
 
 ## Technology
 - Python 
@@ -14,7 +14,7 @@ This is a serial of Self-Driving Car technology (the image high pass-filter)
 - AI
 - Localization
 - Prediction
-- Data Structures
+- Open CV
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
