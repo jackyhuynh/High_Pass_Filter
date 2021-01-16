@@ -1,9 +1,13 @@
 # High-Pass-Filter
 
 # Introduction
-This is a serial of Self-Driving Car technology (the image high pass-filter)
+This is a serial of Self-Driving Car technology (the image classifier high pass-filter)
 
 [Check out video about High pass filter at Udacity.com](https://youtu.be/JOa9ZtV_rB4)
+
+# What exactly is a High-pass Filters?
+High-pass filters detect big changes in intensity over a small area, and patterns of intensity can be best seen in a grayscale image.
+
 
 ## Technology
 - Python 
