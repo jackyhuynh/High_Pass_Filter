@@ -8,6 +8,9 @@ This is a serial of Self-Driving Car technology (the image classifier high pass-
 # What exactly is a High-pass Filters?
 High-pass filters detect big changes in intensity over a small area, and patterns of intensity can be best seen in a grayscale image.
 
+The filters I’ll be talking about are in the form of matrices, often called convolution kernels, which are just grids of numbers that modify an image. Here is a resource if you'd like to see a wider variety of kernel types in action. Below is an example of a high-pass kernel that does edge detection. It’s a 3x3 kernel, whose elements all sum to zero.
+
+It’s important that, for edge detection, all of the elements sum to 0 because edge filters compute the difference or change between neighboring pixels; they are an approximation for the derivative of an image over space.
 
 ## Technology
 - Python 
