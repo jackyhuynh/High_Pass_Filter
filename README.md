@@ -14,6 +14,10 @@ It’s important that, for edge detection, all of the elements sum to 0 because 
 
 ![Img](https://github.com/jackyhuynh/High-Pass-Filter/blob/main/images/waymo-gray.jpg)
 
+After apply high pass filter:
+
+![Img](https://github.com/jackyhuynh/High-Pass-Filter/blob/main/images/screen-shot-2017-12-18-at-10.54.01-pm.png)
+
 ## Technology
 - Python 
 - Object Oriented Design
