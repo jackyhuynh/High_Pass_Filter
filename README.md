@@ -12,6 +12,8 @@ The filters I’ll be talking about are in the form of matrices, often called co
 
 It’s important that, for edge detection, all of the elements sum to 0 because edge filters compute the difference or change between neighboring pixels; they are an approximation for the derivative of an image over space.
 
+![Img](https://github.com/jackyhuynh/High-Pass-Filter/blob/main/images/waymo-gray.jpg)
+
 ## Technology
 - Python 
 - Object Oriented Design
