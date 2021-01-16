@@ -28,6 +28,8 @@ Calculating one output pixel value (175) while performing convolution:
 
 ![Img](hhttps://github.com/jackyhuynh/High-Pass-Filter/blob/main/images/screen-shot-2017-12-18-at-10.59.26-pm.png)
 
+To handle the edges of images, where the filter cannot exactly overlap, a variety of techniques are used. One of the most common is to extend the edge pixel values of the image out by one and use that to perform a convolution. Another is to pad the image with zeroes, though this creates a darker border in the resulting, filtered image.
+
 ## Technology
 - Python 
 - Object Oriented Design
@@ -60,15 +62,14 @@ A step by step series of examples that tell you how to get a development envirom
 Explain how to run the automated tests for this system:
 - There is no download IDE need, all you need is download all the src to your machine and run it.
 - Using Jupiter Notebook
-- Navigate to the file Kahman_Filter_Implementation.ipynb
+- Navigate to the file High_Pass_Filter.ipynb
 - hit:
 
 ```
 Ctrl + Enter
 ```
-- The notebook will execute in Markdown form and include some data visualization to show the actual performance of kalmanfilter vs. lidar vs. round truth.
+- The notebook will execute in Markdown form and include some data visualization to show the actual performance of High-pass filter.
 
-![alt](https://github.com/jackyhuynh/kalmanFilter-app/blob/main/src/picture/1.PNG)
 ## Deployment
 
 The function can be deploy and ready to work with any image. Idea for image recognization for self-driving car sensor.
