@@ -1,7 +1,7 @@
 # High-Pass-Filter
 
 ## Introduction
-This is a serial of Self-Driving Car technology (the image classifier high pass-filter). This application is extremly helpful to detect edge of Objects and based on that we can 
+This is a serial of Self-Driving Car technology (the image classifier high pass-filter). This application is extremely helpful to detect edge of Objects and based on that we can dicide what operation
 
 [Check out video about High pass filter at Udacity.com](https://youtu.be/JOa9ZtV_rB4)
 
